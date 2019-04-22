@@ -52,7 +52,26 @@
 }
 
 
-@keyframes skew-vertical {
+
+/* rotate practice */
+.rotated {
+    transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+    background-color: red;
+  }
+  .rotate-translate {
+    background-color: pink;
+    transform: rotate(45deg) translateX(180px);
+  }
+  
+  .translate-rotate {
+    background-color: gold;
+    transform: translateX(180px) rotate(45deg);
+  }
+/* rotate practice */
+
+
+
+/* @keyframes skew-vertical {
     0%{
         transform: skewY(20deg);
     }
@@ -69,4 +88,5 @@
     100%{
         transform: skewX(-20deg);
     }
-}
+} */
+
